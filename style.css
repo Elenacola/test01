@@ -1,0 +1,103 @@
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Generic rules */
+
+  html {
+    color: white;
+    background-color: #120945;
+    font-family: Livvic, sans-serif;
+  }
+
+
+  /* Navbar e video pricipale */
+
+li {
+    color:white ;
+    font-size: 20px;
+    font-family: 'Arial';
+    list-style: none;
+    margin-left: 30px;
+    display:inline-flex;
+    padding: 20px;
+
+   
+}
+
+
+#search {
+height: 20px;
+margin-left: auto;
+}
+
+
+body {
+margin: 0px;
+} 
+::-webkit-scrollbar {
+    display: none;
+}
+
+#logo
+{height: 50px};
+
+
+#navlinks{
+    
+    text-align:center;
+    top: 0;
+    left: 0;
+  
+  
+}
+
+
+#navbar {
+    background-color:black;
+    display:flex;
+    padding: 10px 60px;
+    right: 0;
+    left: 0;
+    align-items: center;
+    z-index: 3;
+    position: fixed;
+     
+
+}
+
+video {
+    width: 100%;
+ 
+}
+
+/* il primo contenitore deve essere relativo, il secondo deve essere assoluto relativo al video*/
+
+#preview-container{
+    position: relative;
+
+}
+
+#preview-sender {
+    position:absolute;
+    top: 70%;
+    left: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5px;
+    width: 50%;
+    padding: 8px 0;
+    text-align: center;
+    font-weight: bold;
+    opacity: 8;}
+
+
+
